@@ -7,6 +7,7 @@ Non-work utilities and integrations for Claude Code.
 | Plugin | Description |
 |--------|-------------|
 | [beeper](./beeper) | Search and browse local Beeper chat history |
+| [pptx](./pptx) | Create ASI-branded presentations with AI-generated images |
 
 ## Installation
 

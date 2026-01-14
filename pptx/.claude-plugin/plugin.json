@@ -1,0 +1,16 @@
+{
+  "name": "pptx",
+  "version": "0.1.0",
+  "description": "Create beautiful presentations with ASI branding using HTML templates and AI-generated images.",
+  "author": {
+    "name": "Lloyd Vickery",
+    "email": "lloyd@vickery.co.nz"
+  },
+  "keywords": [
+    "pptx",
+    "powerpoint",
+    "presentations",
+    "slides",
+    "design"
+  ]
+}

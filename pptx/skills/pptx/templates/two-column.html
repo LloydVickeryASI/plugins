@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 36pt;
+      width: 720pt;
+      height: 405pt;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      background: #FFFFFF;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+      color: #1A1A2E;
+      font-size: 28pt;
+      font-weight: 700;
+      margin: 0 0 24pt 0;
+    }
+
+    .columns {
+      display: flex;
+      gap: 36pt;
+      flex: 1;
+    }
+
+    .column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    h3 {
+      color: #00A3A3;
+      font-size: 20pt;
+      font-weight: 700;
+      margin: 0 0 12pt 0;
+    }
+
+    p {
+      color: #1A1A2E;
+      font-size: 16pt;
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    .divider {
+      width: 2pt;
+      background: #E6F7F7;
+    }
+  </style>
+</head>
+<body>
+  <h2>{{HEADING}}</h2>
+  <div class="columns">
+    <div class="column">
+      <h3>{{COL1_TITLE}}</h3>
+      <p>{{COL1_CONTENT}}</p>
+    </div>
+    <div class="divider"></div>
+    <div class="column">
+      <h3>{{COL2_TITLE}}</h3>
+      <p>{{COL2_CONTENT}}</p>
+    </div>
+  </div>
+</body>
+</html>

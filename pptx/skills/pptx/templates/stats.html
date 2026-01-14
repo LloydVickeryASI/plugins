@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 36pt;
+      width: 720pt;
+      height: 405pt;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      background: #1A1A2E;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+      color: #FFFFFF;
+      font-size: 28pt;
+      font-weight: 700;
+      margin: 0 0 36pt 0;
+      text-align: center;
+    }
+
+    .stats-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex: 1;
+    }
+
+    .stat {
+      text-align: center;
+      padding: 0 24pt;
+    }
+
+    .stat-number {
+      color: #00A3A3;
+      font-size: 56pt;
+      font-weight: 700;
+      margin: 0;
+      line-height: 1;
+    }
+
+    .stat-label {
+      color: #FFFFFF;
+      font-size: 16pt;
+      font-weight: 400;
+      margin-top: 12pt;
+    }
+
+    .stat-divider {
+      width: 1pt;
+      height: 100pt;
+      background: rgba(255, 255, 255, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <h2>{{HEADING}}</h2>
+  <div class="stats-container">
+    <div class="stat">
+      <p class="stat-number">{{STAT1_NUMBER}}</p>
+      <p class="stat-label">{{STAT1_LABEL}}</p>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <p class="stat-number">{{STAT2_NUMBER}}</p>
+      <p class="stat-label">{{STAT2_LABEL}}</p>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <p class="stat-number">{{STAT3_NUMBER}}</p>
+      <p class="stat-label">{{STAT3_LABEL}}</p>
+    </div>
+  </div>
+</body>
+</html>

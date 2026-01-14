@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 36pt;
+      width: 720pt;
+      height: 405pt;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      background: #FFFFFF;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+      color: #1A1A2E;
+      font-size: 28pt;
+      font-weight: 700;
+      margin: 0 0 24pt 0;
+      padding-bottom: 12pt;
+      border-bottom: 3pt solid #00A3A3;
+    }
+
+    .body-text {
+      color: #1A1A2E;
+      font-size: 18pt;
+      line-height: 1.5;
+      flex: 1;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 24pt;
+    }
+
+    li {
+      margin-bottom: 12pt;
+    }
+
+    .accent {
+      color: #00A3A3;
+      font-weight: 700;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: auto;
+      padding-top: 12pt;
+      border-top: 1pt solid #F3F4F6;
+    }
+
+    .page-number {
+      color: #6B7280;
+      font-size: 12pt;
+    }
+  </style>
+</head>
+<body>
+  <h2>{{HEADING}}</h2>
+  <div class="body-text">
+    <ul>
+      <li><span class="accent">{{POINT_1_TITLE}}:</span> {{POINT_1_DESCRIPTION}}</li>
+      <li><span class="accent">{{POINT_2_TITLE}}:</span> {{POINT_2_DESCRIPTION}}</li>
+      <li><span class="accent">{{POINT_3_TITLE}}:</span> {{POINT_3_DESCRIPTION}}</li>
+    </ul>
+  </div>
+  <div class="footer">
+    <span class="page-number">{{PAGE_NUMBER}}</span>
+  </div>
+</body>
+</html>
