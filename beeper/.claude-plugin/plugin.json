@@ -1,0 +1,17 @@
+{
+  "name": "beeper",
+  "version": "0.0.1",
+  "description": "Search and browse local Beeper chat history (threads, messages, full-text search).",
+  "author": {
+    "name": "Lloyd Vickery",
+    "email": "lloyd@vickery.co.nz"
+  },
+  "keywords": [
+    "beeper",
+    "chat",
+    "messaging",
+    "whatsapp",
+    "signal",
+    "telegram"
+  ]
+}
